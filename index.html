@@ -782,6 +782,12 @@
             .credentials { grid-template-columns: 1fr; }
             .problem-item:nth-child(even) { margin-left: 0; }
         }
+
+        /* ---- LAPTOP SCREEN OPTIMISATION (DRE-17) ---- */
+        @media (min-width: 769px) and (max-width: 1440px) {
+            .hero { min-height: min(78dvh, 720px); }
+            section:not(.hero) { padding-top: 72px; padding-bottom: 72px; }
+        }
     </style>
 </head>
 <body>
