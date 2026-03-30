@@ -197,13 +197,12 @@ address {
   right: 0;
   z-index: 100;
   padding: 0;
-  transition: background-color var(--transition), box-shadow var(--transition), padding var(--transition);
+  background: var(--navy);
+  transition: box-shadow var(--transition), padding var(--transition);
 }
 
 .site-header.scrolled {
-  background: var(--navy);
   box-shadow: 0 2px 24px rgba(15, 34, 51, 0.25);
-  padding: 0;
 }
 
 .nav-inner {
